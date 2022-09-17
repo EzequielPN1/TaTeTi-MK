@@ -1,0 +1,27 @@
+body {
+    background-image: url("20431.jpg");
+    background-size: contain;
+    background-position: center;
+    width: 1900px;
+    height: 1180px;
+    ;
+}
+
+button {
+    width: 230px;
+    height: 230px;
+    background-color: black;
+}
+
+.inicio_restart {
+    width: 500px;
+    margin: auto;
+}
+
+.casilleros {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    width: 800px;
+    margin: auto;
+}
+
